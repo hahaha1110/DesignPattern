@@ -22,4 +22,20 @@ public abstract class Duck {
 	public void swim() {
 		System.out.println("모든 오리는 물에 뜹니다. 가짜 오리도 뜨죠");
 	}
+
+	public FlyBehavior getFlyBehavior() {
+		return flyBehavior;
+	}
+
+	public void setFlyBehavior(FlyBehavior flyBehavior) {
+		this.flyBehavior = flyBehavior;
+	}
+
+	public QuackBehavior getQuackBehavior() {
+		return quackBehavior;
+	}
+
+	public void setQuackBehavior(QuackBehavior quackBehavior) {
+		this.quackBehavior = quackBehavior;
+	}
 }
