@@ -1,6 +1,7 @@
 package ch01.ex01.duck;
 
 import ch01.ex01.fly.FlyBehavior;
+import ch01.ex01.quack.QuackBehavior;
 
 public abstract class Duck {
 	FlyBehavior flyBehavior;

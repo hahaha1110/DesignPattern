@@ -1,6 +1,6 @@
 package ch01.ex01.fly;
 
-public class FlyWithWins implements FlyBehavior{
+public class FlyawithWings implements FlyBehavior{
 	
 	@Override
 	public void fly() {
